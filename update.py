@@ -13,7 +13,7 @@ class Update():
 
     def update_checker(self):
         code = requests.get(self.github).text
-        if "self.version = '0.2.1'" in code:
+        if "self.version = '0.2.2'" in code:
             print('Ваша версия актуальна!')
             time.sleep(1)
             pass
