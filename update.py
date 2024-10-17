@@ -6,7 +6,7 @@ from time import sleep
 
 class Update():
     def __init__(self):
-        self.version = '0.2.1'
+        self.version = '0.2.2'
         self.github = 'https://raw.githubusercontent.com/m1lka1337/clonerdiscord/main/update.py'
         self.zipfile = 'https://github.com/m1lka1337/clonerdiscord/raw/refs/heads/main/main.zip'
         self.update_checker()
